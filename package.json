@@ -1,0 +1,17 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "Node crash course (https://www.youtube.com/watch?v=fBNz5xF-Kx4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Graham Flaspoehler",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
