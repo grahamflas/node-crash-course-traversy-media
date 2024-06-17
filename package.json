@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node crash course (https://www.youtube.com/watch?v=fBNz5xF-Kx4)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
