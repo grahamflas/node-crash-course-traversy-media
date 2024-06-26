@@ -1,5 +1,12 @@
-import Person from "./person.js";
+import Logger from "./logger.js";
 
-const person = new Person("Graham", 33);
+const logger = new Logger();
 
-person.greeting();
+// [TODO] Log this to a file
+logger.on("message", (data) => {
+  console.log("Called listener", data);
+});
+
+logger.log("Hello world!");
+logger.log("Hallo Welt");
+logger.log("Hey girl");
